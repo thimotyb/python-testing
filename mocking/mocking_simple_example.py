@@ -1,6 +1,8 @@
 # https://docs.python.org/3/library/unittest.mock-examples.html
-
+import unittest
 from unittest.mock import MagicMock
+from unittest.mock import Mock
+from unittest.mock import patch
 
 class ProductionClass:
     def method(self):

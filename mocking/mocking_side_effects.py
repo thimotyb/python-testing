@@ -73,14 +73,14 @@ class TestCalendar(unittest.TestCase):
             '7/4': 'Independence Day',
         }
         # Set the side effect of .get()
-        requests_iterable.get.side_effect = [Timeout, response_mock]
+        requests.get.side_effect = [Timeout, response_mock]
         # Test that the first request raises a Timeout
         with self.assertRaises(Timeout):
             get_holidays()
         # Now retry, expecting a successful response
         assert get_holidays()['12/25'] == 'Christmas'
         # Finally, assert .get() was called three times (two in this test, one in previous test)
-        assert requests_iterable.get.call_count == 3
+        assert requests.get.call_count == 3
 
 if __name__ == '__main__':
     unittest.main()

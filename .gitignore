@@ -15,3 +15,4 @@ fixtures/__pycache__/test_expectation.cpython-310-pytest-7.4.3.pyc
 .gitignore
 fixtures/__pycache__/test_simple_fixtures.cpython-310-pytest-7.4.3.pyc
 fixtures/__pycache__/test_time.cpython-310-pytest-7.4.3.pyc
+fixtures/myenv/

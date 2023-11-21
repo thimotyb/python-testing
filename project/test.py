@@ -3,6 +3,9 @@
 # python -m unittest discover
 # python -m unittest discover -s tests // run tests in the "tests" folder
 # python -m unittest discover -s tests -t src // also specify source location
+# coverage run -m unittest discover
+# coverage report
+# coverage html
 from fractions import Fraction
 import unittest
 

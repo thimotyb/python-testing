@@ -38,3 +38,13 @@ with patch('module.Foo') as mock:
     instance.method.return_value = 'the result'
     result = some_function()
     assert result == 'the result'
+
+# Patching using decorator
+class MyTest(unittest.TestCase):
+    @patch('package.module.ClassName1')
+    @patch('package.module.ClassName2')
+    def test_something(self, MockClass2, MockClass1):
+        self.assertIs(package.module.ClassName1, MockClass1)
+        self.assertIs(package.module.ClassName2, MockClass2)
+
+MyTest('test_something').test_something()

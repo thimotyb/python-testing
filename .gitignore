@@ -19,3 +19,10 @@ fixtures/myenv/**
 /fixtures/myvenv
 /fixtures/.pytest_cache
 /fixtures/__pycache__
+matchers/__pycache__/test_matchers_simple.cpython-310.pyc
+poetry-sample-project/poetry.lock
+project_pytest/tests/__pycache__/__init__.cpython-310.pyc
+project_pytest/tests/__pycache__/conftest.cpython-310-pytest-7.4.3.pyc
+project_pytest/tests/test_sum/__pycache__/__init__.cpython-310.pyc
+project_pytest/sum/__pycache__/__init__.cpython-310.pyc
+project_pytest/sum/__pycache__/another_sum.cpython-310.pyc

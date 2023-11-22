@@ -6,6 +6,7 @@
 # coverage run -m unittest discover
 # coverage report
 # coverage html
+# coverage-lcov
 from fractions import Fraction
 import unittest
 

@@ -1,6 +1,6 @@
 # https://docs.pytest.org/en/7.1.x/example/parametrize.html#paramexamples
 # python -m pytest test_time.py -v
-# pytest test_time.py --collect-only
+# python -m pytest test_time.py --collect-only
 from datetime import datetime, timedelta
 
 import pytest

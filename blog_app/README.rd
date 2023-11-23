@@ -16,7 +16,7 @@
 
 ** To perform coverage:
 - cd blog_app\tests\test_article
-- coverage run -m pytest 
+- coverage run -m pytest -m "not e2e" --disable-warnings
 - coverage report
 - coverage html
 - coverage-lcov # to convert in lcov format coverage info for Coverage Gutters (Ctrl+Shift+P: Coverage Gutters - Display Coverage)

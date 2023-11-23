@@ -13,3 +13,9 @@
 **To start only integration tests (requires starting flask):
 - cd blog_app\tests\test_article
 - python -m pytest -m e2e -v --disable-warnings
+
+** To perform coverage:
+- coverage run -m pytest 
+- coverage report
+- coverage html
+- coverage-lcov # to convert in lcov format coverage info for Coverage Gutters (Ctrl+Shift+P: Coverage Gutters - Display Coverage)

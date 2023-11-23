@@ -15,6 +15,7 @@
 - python -m pytest -m e2e -v --disable-warnings
 
 ** To perform coverage:
+- cd blog_app\tests\test_article
 - coverage run -m pytest 
 - coverage report
 - coverage html

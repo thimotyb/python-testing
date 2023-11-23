@@ -2,3 +2,7 @@
 pytest
 pydantic[email]
 coverage-lcov
+jsonschema
+flask
+Werkzeug==2.2.2
+requests

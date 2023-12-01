@@ -1,7 +1,15 @@
 **To start flask app:
+WINDOWS:
 - cd blog_app
 - python blog\init_db.py
 - set FLASK_APP=blog/app.py 
+- python -m flask run
+
+LINUX:
+- cd blog_app
+- FLASK_APP=blog/app.py
+- cd blog
+- python init_db.py
 - python -m flask run
 
 **From tests/test_article folder**
